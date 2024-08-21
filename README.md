@@ -4,9 +4,9 @@ Overview:
 This project is designed to scrape detailed football match data from Premier League sources and use this data to predict match outcomes using machine learning models. The project consists of data collection, preprocessing, analysis, and prediction stages, organized into different scripts and Jupyter notebooks.
 
 Project Structure:
-Football_matches.csv              # CSV file containing the scraped football match data
-scraping.ipynb                    # Jupyter notebook for web scraping
-prediction.ipynb                  # Jupyter notebook for data analysis and prediction
+matches.csv              # CSV file containing the scraped football match data
+scraping.ipynb           # Jupyter notebook for web scraping
+prediction.ipynb         # Jupyter notebook for data analysis and prediction
 
 a) Football_matches.csv: The dataset containing the scraped football match data.
    Key Columns:
@@ -19,7 +19,7 @@ a) Football_matches.csv: The dataset containing the scraped football match data.
     Possession, Shots on Target, Corners, etc.: Additional statistics related to the match.
     
 b) match_scraping.ipynb: A Jupyter notebook that contains the web scraping code. This notebook extracts data such as match results, team statistics, and player 
-                   performances from the web and compiles it into a structured format.
+                         performances from the web and compiles it into a structured format.
    Key Components:
     Web Scraping Setup: Initialization of scraping parameters, including the URLs to be scraped and the data fields to be extracted.
     Data Extraction: Code that navigates through HTML structures to locate and extract relevant match data.
@@ -46,5 +46,5 @@ Python Libraries:
     BeautifulSoup4: For parsing HTML and XML documents.
     pandas: For data manipulation and analysis.
     numpy: For numerical operations.
-    scikit-learn: For machine learning model building.
+    
 

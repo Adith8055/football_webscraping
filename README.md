@@ -4,10 +4,10 @@ Overview:
 This project is designed to scrape detailed football match data from various online sources and use this data to predict match outcomes using machine learning models. The project consists of data collection, preprocessing, analysis, and prediction stages, organized into different scripts and Jupyter notebooks.
 
 Project Structure:
-├── matches.csv              # CSV file containing the scraped football match data
-├── scraping.ipynb           # Jupyter notebook for web scraping
-├── prediction.ipynb         # Jupyter notebook for data analysis and prediction
-└── README.md                # This file
+matches.csv              # CSV file containing the scraped football match data
+scraping.ipynb           # Jupyter notebook for web scraping
+prediction.ipynb         # Jupyter notebook for data analysis and prediction
+README.md                # This file
 
 a) matches.csv: The dataset containing the scraped football match data.
     Key Columns:
@@ -19,8 +19,7 @@ a) matches.csv: The dataset containing the scraped football match data.
     Result: The outcome of the match (Win/Draw/Loss for the home team).
     Possession, Shots on Target, Corners, etc.: Additional statistics related to the match.
     
-b) scraping.ipynb: A Jupyter notebook that contains the web scraping code. This notebook extracts data such as match results, team statistics, and player performances from the web and compiles it into a         
-                   structured format.
+b) scraping.ipynb: A Jupyter notebook that contains the web scraping code. This notebook extracts data such as match results, team statistics, and player performances from the web and     compiles it into a structured format.
    Key Components:
    Web Scraping Setup: Initialization of scraping parameters, including the URLs to be scraped and the data fields to be extracted.
    Data Extraction: Code that navigates through HTML structures to locate and extract relevant match data.
@@ -31,8 +30,7 @@ c) prediction.ipynb: A Jupyter notebook dedicated to building and evaluating pre
     Key Components:
     Data Loading: Code to load the dataset from matches.csv and perform initial explorations, such as summary statistics and data visualization.
     Feature Engineering: Creation of new features that may improve model performance, such as calculating goal differences, home advantage indicators, and historical performance metrics.
-    Model Training: Training different machine learning models (e.g., Random Forest, Logistic Regression) on the processed data. The notebook includes hyperparameter tuning and cross-validation to optimize model 
-                    performance.
+    Model Training: Training different machine learning models (e.g., Random Forest, Logistic Regression) on the processed data. The notebook includes hyperparameter tuning and cross-validation to optimize model performance.
     Model Evaluation: Assessment of the models' accuracy, precision, recall, and other metrics. The notebook also includes visualizations of the models' performance, such as confusion matrices and ROC curves.
     Prediction: Using the trained model to predict the outcomes of future matches.
 

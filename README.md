@@ -8,7 +8,7 @@ matches.csv              # CSV file containing the scraped football match data
 scraping.ipynb           # Jupyter notebook for web scraping
 prediction.ipynb         # Jupyter notebook for data analysis and prediction
 
-a) Football_matches.csv: The dataset containing the scraped football match data.
+a) matches.csv: The dataset containing the scraped football match data.
    Key Columns:
     Date: The date when the match took place.
     Home Team: The name of the home team.
